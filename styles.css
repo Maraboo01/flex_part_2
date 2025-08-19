@@ -161,3 +161,47 @@ ul{
     margin-top: 25px;
     font-weight: 700px;
 }
+.Task-10 .row{
+  flex-wrap: wrap;
+
+}
+.Task-10 .product{
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  width: calc(25% - 30px);
+}
+.Task-10 .product_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+    width: 100%;
+}
+
+.Task-10 .price{
+    color:black;
+    font-weight: 700px;
+    margin: 0;
+}
+
+.Task-10 .button{
+    background-color: rgb(211, 159, 159);
+    border-radius: 45px;
+    color:black;
+    padding: 10px 45px;
+    font-size: 14px;
+    font-weight: 700px;
+    white-space: nowrap; 
+}
+.Task-10 .product img{
+max-width: 100%;
+}
+.Task-10 .button:hover {
+    background: linear-gradient(45deg, rgb(180, 120, 120), rgb(150, 90, 90));
+    color: white;
+    transform: translateY(-2px);
+}
